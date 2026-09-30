@@ -1,13 +1,13 @@
 # Emergency Room Compliance & Operations Analysis
 
 ## 📊 Project Overview
-This analysis of emergency department workflows bridges the gap between healthcare data engineering and operational clinical intelligence. Utilizing raw Electronic Health Record (EHR) data, I built an optimized data pipeline in PostgreSQL to engineer critical clinical velocity metrics. By transforming and denormalizing backend transactional tables, I created a professional Tableau performance dashboard. This project provides hospital administrators with the actionable insights needed to resolve emergency department bottlenecks, minimize regulatory compliance failures, and optimize patient flow.
+This analysis of emergency department workflows bridges the gap between healthcare data engineering and operational clinical intelligence. Utilizing raw Electronic Health Record (EHR) data, I built an optimized data pipeline in PostgreSQL to compute critical clinical velocity metrics. After transforming and denormalizing backend transactional tables, I built a professional Tableau performance dashboard to track key metrics. This project accelerates executive decision-making by providing hospital leaders with the actionable insights needed to resolve ER bottlenecks, minimize compliance failures, and optimize patient flow.
 
-📊 **[View Interactive Tableau Dashboard](PASTE_YOUR_LINK_HERE)**
+ **[View Interactive Tableau Dashboard]([https://public.tableau.com/app/profile/monika.mitchell2582/viz/EmergencyRoomComplianceandOperationsAnalysis/Dashboard1?publish=yes])**
 
 ## 🚀 Key Features
 * **Bottleneck Detection:** Identifies precise workflow constraints and queue delays within the Emergency Department.
-* **Compliance Tracking:** Flags real-time and historical regulatory compliance failures against clinical targets.
+* **Compliance Tracking:** Flags regulatory compliance failures against clinical targets.
 * **Flow Optimization:** Exposes optimal care pathways to improve overall patient throughput.
 
 ### 🛠️ Tech Stack & Infrastructure
@@ -41,14 +41,15 @@ The SQL pipeline isolates bottlenecks across three distinct clinical operational
 
 ## 🖥️ Interactive Dashboard Preview
 
-![Tableau Dashboard Preview](visuals/dashboard_preview.png)
+![Tableau Dashboard Preview](<img width="1499" height="1199" alt="Dashboard 1" src="https://github.com/user-attachments/assets/7deaff1a-d396-485d-a088-f1f8dceefe51" />
+)
 
 ---
 
 ## 🔍 Visualized Insights & Operational Recommendations
 
 ### High-Acuity Delay Exposure (SLA Violations)
-* **The Insight:** A significant percentage of ESI Level 1 and Level 2 patients experience initial vital sign capturing delays that stretch beyond the 5- and 15-minute compliance windows. These high-risk delays are heavily concentrated during shift change windows and mid-day surges.
+* **The Insight:** A significant percentage of triage level 1 and 2 patients experience initial vital sign capturing delays beyond their 5 and 15 minute compliance windows. These high-risk delays are heavily concentrated during shift change windows and mid-day surges.
 * **The Recommendation:** Implement a "Rapid Assessment Triage" protocol during peak arrival hours (11:00 AM – 7:00 PM). Dedicate an autonomous intake nurse exclusively to immediate vital charting for arriving high-acuity squads.
 
 ### The Admitting Bottleneck (Boarding Hours vs. Discharges)
