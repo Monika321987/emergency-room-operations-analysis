@@ -3,7 +3,7 @@
 ## 📊 Project Overview
 This analysis of emergency department workflows bridges the gap between healthcare data engineering and operational clinical intelligence. Utilizing raw Electronic Health Record (EHR) data, I built an optimized data pipeline in PostgreSQL to compute critical clinical velocity metrics. After transforming and denormalizing backend transactional tables, I built a professional Tableau performance dashboard to track key metrics. This project accelerates executive decision-making by providing hospital leaders with the actionable insights needed to resolve ER bottlenecks, minimize compliance failures, and optimize patient flow.
 
- **[View Interactive Tableau Dashboard]([https://public.tableau.com/app/profile/monika.mitchell2582/viz/EmergencyRoomComplianceandOperationsAnalysis/Dashboard1?publish=yes])**
+ **[View Interactive Tableau Dashboard](https://public.tableau.com/app/profile/monika.mitchell2582/viz/EmergencyRoomComplianceandOperationsAnalysis/Dashboard1?publish=yes)**
 
 ## 🚀 Key Features
 * **Bottleneck Detection:** Identifies precise workflow constraints and queue delays within the Emergency Department.
@@ -15,6 +15,11 @@ This analysis of emergency department workflows bridges the gap between healthca
 * **Data Visualization:** Tableau Desktop / Tableau Public
 * **Advanced SQL Techniques:** Window Functions (`MIN() OVER`), Common Table Expressions (CTEs), Conditional Logic (`CASE WHEN`), Data Denormalization
 
+## 📁 Repository Data Structure
+
+* 📂 **`YOUR_RAW_DATA_FOLDER_NAME/`** — Contains the 3 original, untouched backend tables representing raw EHR (Electronic Health Record) clinical logs.
+* 📂 **`YOUR_CLEANED_DATA_FOLDER_NAME/`** — Contains the final cleaned and denormalized CSV file exported from PostgreSQL. This file serves as the clean data source directly feeding the Tableau dashboard.
+* 📂 **`YOUR_SQL_FOLDER_NAME/`** — Contains the `.sql` scripts used to handle the ETL process, joining the 3 raw tables and cleaning the data pipeline.
 ---
 
 ## 📈 Core Operational Key Performance Indicators (KPIs)
@@ -41,7 +46,7 @@ The SQL pipeline isolates bottlenecks across three distinct clinical operational
 
 ## 🖥️ Interactive Dashboard Preview
 
-![Tableau Dashboard Preview](<img width="1499" height="1199" alt="Dashboard 1" src="https://github.com/user-attachments/assets/7deaff1a-d396-485d-a088-f1f8dceefe51" />
+(<img width="1499" height="1199" alt="Dashboard 1" src="https://github.com/user-attachments/assets/7deaff1a-d396-485d-a088-f1f8dceefe51" />
 )
 
 ---
