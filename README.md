@@ -17,9 +17,9 @@ This analysis of emergency department workflows bridges the gap between healthca
 
 ## 📁 Repository Data Structure
 
-* 📂 **`YOUR_RAW_DATA_FOLDER_NAME/`** — Contains the 3 original, untouched backend tables representing raw EHR (Electronic Health Record) clinical logs.
-* 📂 **`YOUR_CLEANED_DATA_FOLDER_NAME/`** — Contains the final cleaned and denormalized CSV file exported from PostgreSQL. This file serves as the clean data source directly feeding the Tableau dashboard.
-* 📂 **`YOUR_SQL_FOLDER_NAME/`** — Contains the `.sql` scripts used to handle the ETL process, joining the 3 raw tables and cleaning the data pipeline.
+* 📂 **`data/raw/`** — Contains the 3 original, untouched backend tables representing raw EHR (Electronic Health Record) clinical logs.
+* 📂 **`data/processed/`** — Contains the final cleaned and denormalized CSV file exported from PostgreSQL. This file serves as the clean data source directly feeding the Tableau dashboard.
+* 📂 **`scripts/sql/`** — Contains the `.sql` scripts used to handle the ETL process, joining the 3 raw tables and cleaning the data pipeline.
 ---
 
 ## 📈 Core Operational Key Performance Indicators (KPIs)
