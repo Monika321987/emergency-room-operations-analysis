@@ -68,7 +68,7 @@ The SQL pipeline isolates bottlenecks across three distinct clinical operational
 ---
 
 ## 🏗️ SQL Engineering Highlights
-To inspect the full data pipeline, view the script in the [`database/queries.sql`](database/queries.sql) folder.
+To inspect the full data pipeline, view the script in the `📂 scripts/sql/` folder.
 
 * **Advanced Window Functions:** Leveraged `MIN() OVER(PARTITION BY...)` to safely target earliest patient touchpoints without throwing standard SQL grouping or aggregation syntax errors.
 * **Negative Interval Prevention:** Engineered a defensive `CASE WHEN` statement to capture and normalize edge cases where triage recording precedes official system registration timestamps, programmatically enforcing a 0-minute baseline to preserve dataset integrity.
