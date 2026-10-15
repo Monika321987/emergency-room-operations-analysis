@@ -3,7 +3,7 @@
 ## 📊 Project Overview
 This analysis of emergency department workflows bridges the gap between healthcare data engineering and operational clinical intelligence. Utilizing raw Electronic Health Record (EHR) data, I built an optimized data pipeline in PostgreSQL to compute critical clinical velocity metrics. After transforming and denormalizing backend transactional tables, I built a professional Tableau performance dashboard to track key metrics. This project accelerates executive decision-making by providing hospital leaders with the actionable insights needed to resolve ER bottlenecks, minimize compliance failures, and optimize patient flow.
 
- **[View Interactive Tableau Dashboard](https://public.tableau.com/app/profile/monika.mitchell2582/viz/EmergencyRoomComplianceandOperationsAnalysis/Dashboard1?)**
+ **[View Interactive Tableau Dashboard](https://public.tableau.com/app/profile/monika.mitchell2582/viz/EmergencyRoomComplianceandOperationsAnalysis/Dashboard1)**
 
 ## 🚀 Key Features
 * **Bottleneck Detection:** Identifies precise workflow constraints and queue delays within the Emergency Department.
